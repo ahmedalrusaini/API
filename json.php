@@ -1,6 +1,6 @@
 <?php 
 $response = array();
-if (isset( $_GET["submit"] )){
+if (isset( $_POST["submit"] )){
 $response["NAME"] = "Ahmed ALRUSAINI";
 $response["PHONE"] = "0565525661";
 $response["AGE"] = "10";
